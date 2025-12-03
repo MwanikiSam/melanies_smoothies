@@ -50,8 +50,8 @@ if ingredients_list:
             values ('""" + ingredients_string + """', '"""+name_on_order+"""')"""
 
     #uncomment below?
-     st.write(my_insert_stmt)
-     st.stop()
+    st.write(my_insert_stmt)
+    st.stop()
 
 time_to_insert = st.button('Submit Order')
 
